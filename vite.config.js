@@ -8,9 +8,4 @@ export default defineConfig({
     react(),
     tailwindcss()],
 })
-export default {
-  server: {
-    port: process.env.PORT || 10000, // Default to 10000, or use the port provided by Render
-    host: '0.0.0.0', // Ensure it's accessible externally
-  },
-}
+
